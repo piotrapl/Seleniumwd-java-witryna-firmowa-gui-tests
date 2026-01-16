@@ -1,5 +1,5 @@
 # seleniumwd-java-ageno_pl-gui-tests
-Testy dla strony ageno.pl 
+Automated tests fo the webpage: ageno.pl 
 
 Selenium WebDriver – Test Automation (Java)
 📌 Project overview
