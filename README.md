@@ -2,7 +2,7 @@
 Automated tests fo the webpage: ageno.pl 
 
 Selenium WebDriver – Test Automation (Java)
-📌 Project overview
+Project overview
 
 This project is a minimal yet production-style test automation framework created as a portfolio example for a Test Automation Engineer role.
 
@@ -30,7 +30,7 @@ stable waits and retry mechanism for page loading
 
 execution in Chrome browser only
 
-🧩 Test scenario (business description)
+Test scenario (business description)
 
 Negative test case – email field validation
 
@@ -46,7 +46,7 @@ Verify that the validation message is displayed:
 
 Proszę wpisać adres e-mail.
 
-⚙️ Requirements
+Requirements
 
 To run this project locally, the following requirements must be met:
 
@@ -60,7 +60,7 @@ Internet connection
 
 No manual WebDriver setup is required (Selenium Manager is used).
 
-🔍 How to verify requirements (command line)
+How to verify requirements (command line)
 Check Java version
 java -version
 
@@ -84,14 +84,14 @@ chrome --version
 
 (or google-chrome --version depending on OS)
 
-▶️ How to run tests
+How to run tests
 Run tests in normal (headed) mode
 mvn test
 
 Run tests in headless mode
 mvn test -Dheadless=true
 
-🧪 Test design highlights
+Test design highlights
 
 Page Object Model + PageFactory
 
@@ -107,7 +107,7 @@ Clean project structure
 
 Maven-based execution (CI-ready)
 
-📁 Project structure
+Project structure
 src/test/java
 └── pl.ageno.tests
     ├── base
@@ -117,7 +117,7 @@ src/test/java
     │   └── ContactPage.java
     └── ContactFormEmailValidationTest.java
 
-🎯 Purpose of this project
+Purpose of this project
 
 This repository demonstrates:
 
