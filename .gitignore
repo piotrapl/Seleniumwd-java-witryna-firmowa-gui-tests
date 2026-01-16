@@ -1,0 +1,73 @@
+# =========================
+# Maven
+# =========================
+/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# =========================
+# Java
+# =========================
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+# =========================
+# Logs / reports
+# =========================
+*.log
+/surefire-reports/
+/failsafe-reports/
+
+# =========================
+# Selenium / Test artifacts
+# =========================
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+
+# =========================
+# IDEs
+# =========================
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+/out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# =========================
+# OS-specific
+# =========================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# =========================
+# Environment / local config
+# =========================
+.env
+.env.*
+*.local
