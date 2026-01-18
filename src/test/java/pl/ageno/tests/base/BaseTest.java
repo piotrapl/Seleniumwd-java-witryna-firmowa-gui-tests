@@ -1,7 +1,9 @@
 //BaseTest to abstrakcyjna klasa bazowa dla wszystkich testów
 // Rola klasy BaseTest - dostarczenie wspólnych funkcjonalności
 // 1. zarządzanie cyklem życia WebDrivera.
-// Inicjalizuje WebDriver przed każdym testem i zamyka go po teście.
+// 2. unikanie duplikacji kodu w klasach testowych
+// 3. spójny lifecycle testów (setup / teardown)
+//    ( ułatwienie utrzymania i rozszerzania testów w przyszłości ) 
 
 package pl.ageno.tests.base;
 
@@ -11,8 +13,10 @@ import org.openqa.selenium.WebDriver;
 
 public abstract class BaseTest {
 
+// główny interfejs Selenium do sterowania przeglądarką
     protected WebDriver driver;
 
+// adnotacje JUnit 5, sterujące cyklem życia testów
     @BeforeEach
     void setUp() {
         driver = DriverFactory.createChromeDriver();
