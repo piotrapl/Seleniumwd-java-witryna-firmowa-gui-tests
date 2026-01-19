@@ -24,7 +24,7 @@ Proszę wpisać adres e-mail.
 
 ## Wymagania (Requirements)
 
-Do uruchomienia projektu wymagane są:
+### Do uruchomienia projektu wymagane są:
 
 Java JDK 17
 
@@ -36,31 +36,28 @@ Dostęp do Internetu
 
 Projekt korzysta z Selenium Manager, dlatego nie wymaga ręcznego pobierania ani konfiguracji ChromeDrivera.
 
-Sprawdzenie wymagań (command line)
-Java
+### Sprawdzenie wymagań (command line)
+*Java*
 java -version
 
-Oczekiwany wynik:
+*Oczekiwany wynik:*
 
 java 17.x
 
-Maven
+*Maven*
 mvn -version
 
-Oczekiwany wynik:
+*Oczekiwany wynik:*
 
 Apache Maven 3.x
 Java version: 17
 
-Chrome
-chrome --version
-
 ## Uruchamianie testów (Running the tests)
-Tryb standardowy (z widoczną przeglądarką)
+#### Tryb standardowy (z widoczną przeglądarką)
 
 mvn test
 
-Tryb headless
+#### Tryb headless
 
 mvn test -Dheadless=true
 
