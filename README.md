@@ -6,8 +6,7 @@ The tested application is the contact form on https://ageno.pl/kontakt/
 .
 The website is a typical example of a simple yet functional company website.*
 
-
-## Scenariusz testowy (test scenario)
+## Scenariusz testowy (Test scenario)
 Negatywny przypadek testowy – walidacja pola e-mail
 
 Otwarcie strony: https://ageno.pl/kontakt/
@@ -37,14 +36,16 @@ Dostęp do Internetu
 Projekt korzysta z Selenium Manager, dlatego nie wymaga ręcznego pobierania ani konfiguracji ChromeDrivera.
 
 ### Sprawdzenie wymagań (command line)
-*Java*
+*Java:*
+
 java -version
 
 *Oczekiwany wynik:*
 
 java 17.x
 
-*Maven*
+*Maven:*
+
 mvn -version
 
 *Oczekiwany wynik:*
