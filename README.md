@@ -87,12 +87,8 @@ Aby skrócić czas wykonania testów i dostosować framework do pracy zespołowe
 
 Repozytorium demonstruje:
 
-praktyczne użycie Selenium WebDriver w Javie,
+#### praktyczne użycie Selenium WebDriver w Javie,
 
-umiejętność projektowania stabilnych testów UI,
+#### projektowanie stabilnych testów UI,
 
-znajomość walidacji formularzy webowych,
-
-poprawną architekturę testów automatycznych,
-
-gotowość do pracy na stanowisku Test Automation Engineer.
+#### poprawną architekturę testów automatycznych,
