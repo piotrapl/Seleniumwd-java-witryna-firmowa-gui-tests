@@ -82,13 +82,13 @@ Uruchamianie testów przez Maven (projekt gotowy pod CI)
 
 ## Co można by ulepszyć ? (What could be improved ?)
 
-Raportowanie i diagnostyka (np. Allure / Extent Reports)
+#### Raportowanie i diagnostykę (np. Allure / Extent Reports)
 Aby zapewnić czytelne raporty, szybkie debugowanie błędów oraz lepszą widoczność wyników testów.
 
-Konfiguracja i środowiska (profiles, properties)
+#### Konfigurację i środowiska (profiles, properties)
 Aby umożliwić uruchamianie testów na różnych środowiskach (URL, timeouty, tryb headless) bez zmian w kodzie.
 
-Skalowalność (CI/CD, równoległość, wiele przeglądarek)
+#### Skalowalność (CI/CD, równoległość, wiele przeglądarek)
 Aby skrócić czas wykonania testów i dostosować framework do pracy zespołowej oraz pipeline’ów CI.
 
 ## Cel projektu (Project goal)
