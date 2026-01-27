@@ -1,10 +1,10 @@
 ## Wprowadzenie (Intro)
-Projekt testów automatycznych w Selenium Webdriver/Java/jUnit. Testowana aplikacja: formularz kontaktowy na stronie https://ageno.pl/kontakt/. Strona stanowi typowy przykład prostej ale funkcjonalnej witryny firmwej.
-### English version
+Projekt testów automatycznych w Selenium Webdriver/Java/jUnit. Testowana aplikacja: formularz kontaktowy na stronie https://ageno.pl/kontakt/ - przykład prostej ale funkcjonalnej witryny firmwej.
+### English abstract
 *Automated test project using Selenium WebDriver, Java and JUnit.
-The tested application is the contact form on https://ageno.pl/kontakt/
+The tested application is the contact form on https://ageno.pl/kontakt/_
 .
-The website is a typical example of a simple yet functional company website.*
+example of a simple yet functional company website.*
 
 ## Scenariusz testowy (Test scenario)
 Negatywny przypadek testowy – walidacja pola e-mail
@@ -93,14 +93,12 @@ mvn test -Dheadless=true
 
 - Duże wsparcie społeczności → popularny standard
 
-## Wady używania JUnit
+## Wady używania JUnit w porównaniu 
 
 - Ograniczone możliwości grupowania testów w porównaniu do TestNG
 
 - Brak natywnej obsługi zależności między testami (dependsOnMethods)
 
-Mniej elastyczna kontrola równoległego uruchamiania testów
+- Mniej elastyczna kontrola równoległego uruchamiania testów
 
-Testy data-driven są nieco bardziej rozbudowane niż w TestNG (@DataProvider)
-
-Słabsze wsparcie dla złożonej orkiestracji testów w dużych, sekwencyjnych scenariuszach
+- Testy data-driven są nieco bardziej rozbudowane niż w TestNG (@DataProvider)
