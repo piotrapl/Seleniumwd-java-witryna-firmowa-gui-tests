@@ -92,3 +92,15 @@ mvn test -Dheadless=true
 - B. dobra integracja z narzędziami i frameworkami
 
 - Duże wsparcie społeczności → popularny standard
+
+## Wady używania JUnit
+
+- Ograniczone możliwości grupowania testów w porównaniu do TestNG
+
+- Brak natywnej obsługi zależności między testami (dependsOnMethods)
+
+Mniej elastyczna kontrola równoległego uruchamiania testów
+
+Testy data-driven są nieco bardziej rozbudowane niż w TestNG (@DataProvider)
+
+Słabsze wsparcie dla złożonej orkiestracji testów w dużych, sekwencyjnych scenariuszach
